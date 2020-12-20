@@ -1,0 +1,12 @@
+gba : clavier
+
+up = arrow up
+down = arrow down
+right = arrow right
+left = arrow left
+start = enter
+select = espace
+B = Z
+A = X
+L = W
+R = E

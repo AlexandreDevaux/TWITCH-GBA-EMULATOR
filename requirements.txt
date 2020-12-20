@@ -1,0 +1,18 @@
+#ONLY WORKS ON WINDOWS
+
+#python : 
+pip install time
+pip install ctypes
+
+#nodejs :
+nodemon
+tmi.js (github : https://github.com/tmijs/tmi.js)
+
+#visual studio :
+
+https://code.visualstudio.com/download
+
+#BizHawk
+
+https://github.com/TASVideos/BizHawk.git
+
