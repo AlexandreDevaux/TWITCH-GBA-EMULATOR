@@ -18,5 +18,18 @@ Then you are ready to go !
  $ pip install time
  $ pip install ctypes
  
- 
- 
+2 *)  set up your 2auth on your twitch account
+
+3 *)  get your oauth token via https://twitchapps.com/tmi/
+
+4 *)  replace the **** in the app.js file
+
+
+ That's it ! You can run it via the command :
+
+ $ nodemon app.js
+
+
+ Enjoy !
+
+ Made by AlexandreDevaux
