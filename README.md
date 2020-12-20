@@ -31,6 +31,6 @@ Then you are ready to go !
  $ nodemon app.js
 ```
 
- Enjoy !
+ Enjoy !  (The emulator has to be the main process of your computer)
 
  Made by AlexandreDevaux
