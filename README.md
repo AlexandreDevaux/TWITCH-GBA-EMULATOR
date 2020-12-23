@@ -30,6 +30,7 @@ Then you are ready to go !
 ```
  $ nodemon app.js
 ```
+if it does not work, just replace nodemon by node.
 
  Enjoy !  (The emulator has to be the main process of your computer)
 
