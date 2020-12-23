@@ -6,10 +6,10 @@ const client = new tmi.Client({
 		secure: true
 	},
 	identity: {
-		username: '******', // replace *** by your twitch username
-		password: 'oauth:*****' // replace *** by your oauth code
+		username: '**************', // replace *** by your twitch username
+		password: 'oauth:**************' // replace *** by your oauth code
 	},
-	channels: [ '********' ] /// replace *** by your twitch username
+	channels: [ '***************' ] /// replace *** by your twitch username
 });
 client.connect().catch(console.error);
 client.on('message', (channel, tags, message, self) => {
@@ -76,5 +76,12 @@ client.on('message', (channel, tags, message, self) => {
         const spawn = require("child_process").spawn; // lance le sous-process
         const pythonProcess = spawn('python',["keys/ENTER.py"]); // execute le script script.py
 		client.say(channel, `@${tags.username}, START received !`);
+    }
+    if(message.toLowerCase() === '!select') 
+    {
+        console.log(tags.username);
+        const spawn = require("child_process").spawn; // lance le sous-process
+        const pythonProcess = spawn('python',["keys/SPACE.py"]); // execute le script script.py
+		client.say(channel, `@${tags.username}, SELECT received !`);
 	}
 });
