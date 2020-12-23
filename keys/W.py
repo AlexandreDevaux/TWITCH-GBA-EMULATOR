@@ -81,6 +81,6 @@ def ReleaseKey(hexKeyCode):
 if __name__ == '__main__':
     for i in range(1):
         PressKey(KEY)
-        time.sleep(0.3)
+        time.sleep(0.15)
         ReleaseKey(KEY)
-        time.sleep(0.5)
+        time.sleep(0.1)
